@@ -1,0 +1,14 @@
+{
+  "name": "central-operacional-final-v18-eletricista-1620",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Central moderna com gerador de relatórios otimizado e gerador de escalas.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "pdfkit": "^0.13.0"
+  }
+}
