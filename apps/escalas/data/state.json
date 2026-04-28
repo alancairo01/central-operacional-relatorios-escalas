@@ -87,8 +87,12 @@
       }
     ]
   },
-  "manualCells": {},
-  "cellColors": {},
+  "manualCells": {
+    "Edinho Maia|2026-04-26": "08:00 – 16:20"
+  },
+  "cellColors": {
+    "Edinho Maia|2026-04-26": "#d395a6"
+  },
   "manualSundayCounts": {},
   "colors": {
     "header": "#fff200",
@@ -316,5 +320,5 @@
     "Igor Veras": 0,
     "Edinho Maia": 0
   },
-  "savedAt": "2026-04-28T15:26:30.330Z"
+  "savedAt": "2026-04-28T15:33:31.583Z"
 }

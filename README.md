@@ -71,3 +71,10 @@ apps/escalas/data/state.json
 - Horário padrão do Eletricista alterado para 08:00–16:20.
 - O arquivo `apps/escalas/data/state.json` foi atualizado para refletir o novo horário.
 - A chave do armazenamento local foi alterada para evitar carregar horários antigos do navegador.
+
+
+## Atualização v19
+
+- Horário do Eletricista 08:00–16:20 agora usa a cor #d395a6.
+- Adicionada cor fixa para horários iniciados em 08:00.
+- Chave de armazenamento local atualizada para evitar cache antigo do navegador.

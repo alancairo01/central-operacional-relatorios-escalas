@@ -88,6 +88,7 @@ const COVERAGE_ROLES_FOR_TECH_SHIFT = [
 const FIXED_SHIFT_COLORS = {
   "00:00": "#ff000d",
   "06:00": "#d395a6",
+  "08:00": "#d395a6",
   "12:00": "#76bb68",
   "18:00": "#d9ef6a",
 };
@@ -207,7 +208,7 @@ async function loadState() {
     console.warn("API indisponível, usando localStorage.", error);
   }
 
-  const local = localStorage.getItem("escalaAutoStateV18");
+  const local = localStorage.getItem("escalaAutoStateV19");
   if (local) {
     try {
       state = mergeState(DEFAULT_STATE, JSON.parse(local));
@@ -260,7 +261,7 @@ function readFieldsToState() {
 
 async function saveState(showMessage = false) {
   state.savedAt = new Date().toISOString();
-  localStorage.setItem("escalaAutoStateV18", JSON.stringify(state));
+  localStorage.setItem("escalaAutoStateV19", JSON.stringify(state));
 
   try {
     const response = await fetch("/escalas/api/state", {
